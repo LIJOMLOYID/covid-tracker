@@ -55,7 +55,7 @@ public class CovidDataService {
 			locationStat.setState(record.get("Province/State"));
 			locationStat.setCountry(record.get("Country/Region"));
 			locationStat.setLatestTotalCases(Integer.parseInt(record.get(record.size()-1)));	
-			System.out.println(locationStat);
+			//System.out.println(locationStat);
 			newStats.add(locationStat);
 			
 //		    String state = record.get("Province/State");
